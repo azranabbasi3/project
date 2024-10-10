@@ -1,39 +1,67 @@
-body {
-    padding: 0px;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
+body{
+    background: linear-gradient(to right, red ,green, yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-#div {
+}
+.div{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    top: 70px;
-    left: 550px;
-    height: auto;
-    margin-right: 90px;
-   
+    margin-top: 60px;
+    border: 1px solid ;
+    padding: 10px;
+    margin-inline:500px;
+    background-color: deeppink;
 }
-
-h1 {
+.div #btn {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    margin-top: 0px;
+    align-items: center;
 }
-.button {
-    position: relative;
-    bottom: 22px;
-    left: 110px;
-    display: block;
-    margin-right: 3px;
+.div #taskInput{
+    font-size: 18px;
+    font-weight: 100;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    margin: 10px;
+    width: 250px;
+    height: 30px;
+    background-color: aqua;
+    color: black;
 }
-
-#reset {
-    position: relative;
-    left: 155px;
-    bottom: 43px;
+.button{
+    width:  250px;
+    border: none;
+    font-size: 20px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    background: linear-gradient(to right,pink,#d9ff00);
+    cursor: pointer;
 }
-#ul{
-    right: 30px;
-    bottom: 75px;
-    position: relative;
+.button:hover{
+       background: rgb(185, 32, 216);
+       color: aliceblue;
+}
+.list{
+    width: 250px;
+    height: 400px;
+    position: fixed;
+    right: 950PX;
+    top: 60PX ;
+    background-color: blueviolet;
+    padding: 10PX;   
+    border-radius: 5px;
+    overflow-x: hidden;
+   overflow-y: auto;
 }
