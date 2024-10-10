@@ -1,0 +1,39 @@
+body {
+    padding: 0px;
+}
+
+#div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 70px;
+    left: 550px;
+    height: auto;
+    margin-right: 90px;
+   
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+}
+.button {
+    position: relative;
+    bottom: 22px;
+    left: 110px;
+    display: block;
+    margin-right: 3px;
+}
+
+#reset {
+    position: relative;
+    left: 155px;
+    bottom: 43px;
+}
+#ul{
+    right: 30px;
+    bottom: 75px;
+    position: relative;
+}
