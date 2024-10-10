@@ -9,14 +9,22 @@
 </head>
 
 <body>
-    <h1>Task Management App</h1>
-    <div id="div">
-        <input type="text" id="taskInput" placeholder="Enter task">
-        <button class="button" id="add" onclick="add()">Add</button>
-        <button class="button" id="reset" onclick="reset()">Reset</button><br>
-        <p id="error"></p>
+    <div class="div">
+
+        <div id="heading">
+            <h1>Task Management App</h1>
+        </div>
+
+        <div id="btn">
+            <input type="text" id="taskInput" placeholder="Enter task">
+            <button class="button" id="add" onclick="add()">Add</button>
+            <button class="button" id="reset" onclick="reset()">Reset</button><br>
+        </div>
+    </div>
+    <div class="list">
         <ul id="ul"></ul>
     </div>
+
     <script src="app.js"></script>
 </body>
 
